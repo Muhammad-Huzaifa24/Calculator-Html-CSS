@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #002424;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-box{
+    width: 300px;
+    height:400px;
+    margin:  0 auto;
+    background-color: #003333;
+    border-radius: 5px;
+    padding: 16px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:1px 1px yellowgreen;
+}
+
+.output-box{
+    background-color: #002424;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid black;
+    
+
+}
+
+.input-box{
+    background-color: #000924;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:1px 1px yellowgreen;
+
+}
+.row-1, .row-2, .row-3, .row-4{
+    width: 90%;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.digit{
+    width: 45px;
+    height: 45px;
+    color: white;
+    border-radius: 4px;
+    background-color: #000033;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:1px 1px yellowgreen;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.digit:hover{
+    border: 1px solid white;
+    color:#000033;
+    font-weight: bold;
+    background-color: #bfcfff;
+    border-radius:8px;
+    cursor: pointer;
+    
+}
+.operator{
+    box-shadow:1px 1px yellowgreen;
+    width: 45px;
+    height: 45px;
+    color: white;
+    border-radius: 4px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;      
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.operator:hover{
+    font-weight: bold;
+    background-color: #bfcfff;
+    color:#000033;
+    border-radius:8px;
+}
+.main-output{
+    border: 2px solid white;
+    border-radius:4px;
+    width: 95%;
+    height: 70%;
+}
